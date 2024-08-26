@@ -1,0 +1,248 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    font-family: 'Roboto';
+    background: #EBEBEB;
+}
+
+/* === HEADER - START === */
+
+/* Navigation - Start */
+
+.header__nav {
+    height: 65px;
+    background: #322E41;
+}
+
+.header__content {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list>li {
+    list-style: none;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+    padding: 24px 14px;
+    transition: .2s linear;
+}
+
+.header__link:hover {
+    color: #D47300;
+    background: white;
+    transition: .2s linear;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigation - Start */
+
+/* Intro - Start */
+
+.intro {
+    height: 100vh;
+    background-image: url(../img/nike-intro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro__content {
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__content-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.intro__content-text{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Intro - End */
+
+/* === HEADER - END === */
+
+/* === MAIN - START === */
+
+/* Shoe - Start */
+
+.shoe{
+    margin-top: -30px;
+}
+
+.shoe__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shoe__block{
+    width: 540px;
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.shoe__block-title{
+    color: #2C2A2A;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.shoe__block-text{
+    color: #9B9B9B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shoe__info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.shoe__info-block{
+    width: 255px;
+    height: 220px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.shoe__info-block-title{
+    color: #2C2A2A;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.shoe__info-block-text{
+    color: #9B9B9B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Shoe - End */
+
+/* === MAIN - END === */
+
+/* === FOOTER - START === */
+
+footer{
+    background: #322E41;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__form input{
+    width: 350px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.footer__form textarea{
+    width: 350px;
+    height: 85px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer__form button{
+    width: 350px;
+    height: 25px;
+    color: white;
+    background: #544294;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.footer__ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__list{
+    margin-right: 75px;
+}
+
+.footer__list li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer__link{
+    color: white;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.footer__link:hover{
+    color: #D47300;
+    transition: .2s linear;
+}
+
+/* === FOOTER - END === */
